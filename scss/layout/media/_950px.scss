@@ -1,0 +1,13 @@
+@media (max-width: 950px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .conjunto-seccion-2-4 {
+    display: none;
+  }
+
+  .fondo-productos-1 {
+    display: none;
+  }
+}

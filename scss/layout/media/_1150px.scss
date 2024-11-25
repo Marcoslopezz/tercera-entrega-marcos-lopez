@@ -1,0 +1,17 @@
+@media (max-width:1150px){
+    .conjuntos-productos-4{
+        display: none;
+    }
+
+    .conjuntos-productos-8{
+        display: none;
+    }
+
+    .conjuntos-productos-12{
+        display: none;
+    }
+
+    .contenedor-productos-calzados{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

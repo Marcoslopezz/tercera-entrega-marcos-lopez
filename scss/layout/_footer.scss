@@ -1,0 +1,23 @@
+.logo-footer {
+  padding-top: 50px;
+  padding-left: 150px;
+}
+
+.logo-footer img {
+  width: 300px;
+}
+
+.contenedor-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conjunto-footer h2 {
+  padding-right: 1.25rem;
+  color: $white;
+  font-weight: 400;
+}
+
+footer {
+  background-color: $footerColor;
+}

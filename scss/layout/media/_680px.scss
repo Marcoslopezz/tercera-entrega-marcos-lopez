@@ -1,0 +1,58 @@
+@media (max-width: 680px) {
+  .carrusel img {
+    height: 200px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conjunto-seccion-2-3 {
+    display: none;
+  }
+
+  .fondo-productos-3 {
+    display: none;
+  }
+  .barra-busqueda input {
+    display: none;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .contenedor-productos-calzados {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .conjuntos-productos-3 {
+    display: none;
+  }
+
+  .conjuntos-productos-7 {
+    display: none;
+  }
+
+  .conjuntos-productos-11 {
+    display: none;
+  }
+
+  .logo-footer img {
+    width: 200px;
+  }
+
+  .logo-footer {
+    padding: 0;
+    display: flex;
+    text-align: center;
+  }
+
+  .conjunto-footer img {
+    width: 40px;
+  }
+
+  .conjunto-footer h2 {
+    font-size: 20px;
+  }
+}

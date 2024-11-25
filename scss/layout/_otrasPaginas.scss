@@ -1,0 +1,116 @@
+.mega-contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-back {
+  display: flex;
+  gap: 1.875rem;
+  margin-top: 3.125rem;
+  margin-bottom: 3.125rem;
+}
+
+.btn-back a {
+  font-size: 1.25rem;
+  font-weight: 31.25rem;
+  color: $white;
+}
+
+.contenedor-btn-back {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.titulo-principal {
+  margin-bottom: 1.875rem;
+}
+
+.titulo-principal h2 {
+  color: $white;
+  font-size: 1.875rem;
+  font-weight: 400;
+}
+
+.contenedor-productos-calzados {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+.conjuntos-productos-1 {
+  max-width: 270px;
+  background-color: $fondoProductos;
+}
+
+.conjuntos-productos-2 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-3 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-4 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-5 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-6 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-7 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-8 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-9 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-10 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-11 {
+  @extend .conjuntos-productos-1;
+}
+
+.conjuntos-productos-12 {
+  @extend .conjuntos-productos-1;
+}
+
+.img-productos img {
+  width: 16.875rem;
+  height: 16.875rem;
+}
+
+.txt-precio h2 {
+  padding-left: 5px;
+  color: $white;
+}
+
+.btn-ver-mas {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.btn-ver-mas button {
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 30px 10px 30px;
+}
+
+.btn-ver-mas :hover {
+  background-color: $verMasHover;
+}
